@@ -1,0 +1,25 @@
+{
+  "name": "minimal-fullstack-application",
+  "version": "1.0.0",
+  "description": "Minimal fullstack application built with Node.js and React.js .",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "build": "cd client && npm install && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SylvioSLV/Minimal-Fullstack-application.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SylvioSLV/Minimal-Fullstack-application/issues"
+  },
+  "homepage": "https://github.com/SylvioSLV/Minimal-Fullstack-application#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+  
+}
